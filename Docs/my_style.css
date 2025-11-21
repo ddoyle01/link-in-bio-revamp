@@ -1,0 +1,84 @@
+  
+  .body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    justify-content: center;
+  }
+
+  .banner-image {
+    width: 15rem;
+    height: 15rem;
+    object-fit: fill;
+    border-radius: 18.75rem;
+  }
+
+  .thumbnail {
+    width: 10rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 10rem;
+    object-fit: fill;
+    display: flex;
+    justify-content: left;
+  }
+
+  .link {
+    background: linear-gradient(90deg,transparent,purple,transparent);
+    transition: 0.5s;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 30rem;  
+    box-shadow: 0.625rem 90.563rem 0.625rem;    
+  }
+
+  .link a {
+    color: #ff00d4;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 1.5rem;
+  }
+
+  .link:hover {
+    background-color: #000000;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+  }
+
+  .name {
+    color: #d300b7;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+  } 
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-icons svg {
+    color: #02b7ff;
+  }
+
+
+  .social-icons svg:hover {
+    color: #000000;
+  } 
